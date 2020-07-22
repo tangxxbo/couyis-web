@@ -1,0 +1,46 @@
+.home-main{
+    margin: auto;
+    margin-top: 30px;
+    width: 1280px;
+    min-height: 500px;
+}
+
+.home-main-col{
+    float: left;
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.home-main-col-pub{
+    display: none;
+}
+
+.top-title-img{
+    float: left;
+    width: 27px;
+    height: 27px;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 10%;
+}
+
+.top-title{
+    font-size: 18px;
+}
+.top-title-link{
+    display: block;  
+    color: #999999;
+    margin-left: 40px;   
+}
+
+.left-title{
+    font-size: 14px;
+}
+
+.left-title-link{    
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #999999;
+}
+

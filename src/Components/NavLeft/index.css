@@ -1,0 +1,427 @@
+#site-layout-left{
+    background-color:#071e44;
+    opacity: 0.9;
+    border-right:0px solid #19aa8d;
+    margin-top: -2px;
+    overflow-y:auto;
+}
+
+.ui-profile-navLeft{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.ui-profile-navLeft-item{
+    display: block;
+    height: 45px;    
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.ui-profile-navLeft-item:hover{
+    background-color: #4285f4;
+}
+.current{
+    background-color: #4285f4;
+}
+
+.ui-profile-navLeft-item-icon{
+    width: 16px;
+    height: 16px;
+    margin-top: 17px;
+    margin-left: 15px;
+    float: left;
+    
+}
+
+.ui-profile-navLeft-item-action{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_action.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-admin{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_admin.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-analysis{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_analysis.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-authArea{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_authArea.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-authority{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_authority.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-authorize{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_authorize.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-baseSetting{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_baseSetting.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-cogroup{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_cogroup.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-comment{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_comment.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-contract{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_contract.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-dbop{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_dbop.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-dingding{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_dingding.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-ekp{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_ekp.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-element{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_element.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-ext{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_ext.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-file{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_file.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-form{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_form.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-fs{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_fs.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-ftsearchConfig{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_ftsearchConfig.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-ftsearchLogs{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_ftsearchLogs.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-handover{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_handover.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-hr{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_hr.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-intell{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_intell.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-io{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_io.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-kk{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_kk.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-kms{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_kms.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-learn{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_learn.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-log{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_log.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-mail{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_mail.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-maindata{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_maindata.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-maintenance{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_maintenance.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-material{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_material.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-mComponent{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_mComponent.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-mechanism{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_mechanism.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-modeling{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_modeling.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-modelingCategory{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_modelingCategory.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-monitor{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_monitor.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-mPortal{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_mPortal.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-notify{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_notify.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-online{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_online.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-organizationa{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_organizationa.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-other{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_other.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-overview{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_overview.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-personsetting{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_personsetting.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-queue{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_queue.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-report{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_report.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-saas{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_saas.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-server{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_server.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-services{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_services.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-simulation{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_simulation.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-sms{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_sms.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-sns{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_sns.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-statisticsAnalyze{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_statisticsAnalyze.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-timeArea{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_timeArea.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-timing{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_timing.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-transfer{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_transfer.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-user{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_user.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-voteweight{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_voteweight.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-webservice{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_webservice.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-wechat{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_wechat.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-weixin{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_weixin.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-wordsManage{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_wordsManage.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-workflow{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_workflow.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-ywork{
+    background-image: url(../../assets/nav_left_icon/profile_navLeft_ywork.png);
+    -moz-background-size:100% 100%; 
+    background-size:100% 100%;
+}
+
+.ui-profile-navLeft-item-text{
+    float: left;
+    margin-top: 14px;
+    margin-left: 12px;
+    color: white;
+}
