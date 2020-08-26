@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var fun = function(p1, p2) {
+        //     return p1 + p2;
+        // }
+        // alert(fun(1, 2));
+        //匿名函数付给变量
+        // var ar1 = [4, 1, 2, 5, 7, 6, 3, 9, 8];
+        // console.log(ar1.sort(function(a, b) {
+        //     return b - a;
+        // }));
+        //声明函数直接调用函数
+        // (function(p1, p2) {
+        //     return p1 + p2;
+        // })(1, 2);
+        // function clickButton() {
+        //     var txtval = document.getElementById("txt1");
+        //     //获取标签对象属性值
+        //     alert(txtval.value);
+        //     //获取点击目标对象的属性值
+        //     alert(event.target.value);
+        // }
+    </script>
+</head>
+
+<body>
+    <!-- <input type="text" name="" id="txt1" placeholder="请输入值">
+    <input type="button" value="按钮" onclick="clickButton()"> -->
+    <!-- <input type="text" value="fkjs" id="txt2"> -->
+    <p id="tp1" class="ps">Hello world!</p>
+    <p id="tp2" class="ps">Hello TEST!</p>
+    <input type="button" value="更改" id="btn1">
+    <script>
+        //1、通过获取标签对象直接匿名函数调用
+        // document.getElementById("txt2").onchange = function() {
+        //     alert(event.target.value);
+        // }
+        //2、通过获取标签对象直接匿名函数调用，或者匿名函数赋给变量，变量赋给事件对象
+        // let changeValue = function() {
+        //     alert(event.target.value);
+        // }
+        // document.getElementById("txt2").onchange = changeValue;
+        // let alterStyle = () => {
+        //     var s1 = document.getElementById("tp1").style.color = "red";
+        //     var s4 = document.getElementById("tp1").style.cssFloat = "left";
+        //     var s2 = document.getElementById("tp2").style.fontStyle = "italic";
+        //     var s3 = document.getElementById("tp2").style.color = "red";
+        //     var s5 = document.getElementById("tp2").style.cssFloat = "left";
+        //     var st1 = document.getElementById("tp2").style.background = "black";
+        let alterStyle2 = () => {
+                var cs1 = document.getElementsByTagName("p");
+                for (let index = 0; index < cs1.length; index++) {
+                    const element = cs1[index];
+                    element.style.background = "green";
+                }
+            }
+            // document.getElementById("btn1").onclick = alterStyle2;
+            //定时器函数window
+            // setInterval(alterStyle2, 5000);
+            //setTimeout执行一次
+            //
+            //弹出输入框
+            // var text = prompt("请输入内容");
+            // alert(text);
+    </script>
+</body>
+
+</html>
